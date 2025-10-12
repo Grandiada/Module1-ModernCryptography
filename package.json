@@ -1,0 +1,34 @@
+{
+  "name": "module1-moderncryptography",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "execute": "tsx src/index.ts",
+    "postinstall": "check-engine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grandiada/Module1-ModernCryptography.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Grandiada/Module1-ModernCryptography/issues"
+  },
+  "homepage": "https://github.com/Grandiada/Module1-ModernCryptography#readme",
+  "description": "",
+  "dependencies": {
+    "base64url": "^3.0.1",
+    "ecdsa-sig-formatter": "^1.0.11",
+    "ethers": "^6.15.0",
+    "tsx": "4.20.6"
+  },
+  "devDependencies": {
+    "@types/node": "22.0.0",
+    "check-engine": "1.14.0"
+  },
+  "engines": {
+    "node": "=22"
+  }
+}
